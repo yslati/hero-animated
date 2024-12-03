@@ -1,6 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Animated Navbar and Hero Section with Framer Motion
 
-## Getting Started
+This project showcases a modern web application built with **Next.js** (App Router). It features an animated **navbar** and a **hero section** with dynamic text animations, implemented using **Framer Motion** for seamless and engaging user interactions.
+
+## 🚀 Features
+
+- **Animated Navbar**:
+
+  - Smooth transitions and animations for navigation links.
+  - Responsive and optimized for various screen sizes.
+
+- **Hero Section**:
+
+  - Eye-catching text animations to grab the user's attention.
+  - Hides the section in Mobile view.
+
+- **Modern Tech Stack**:
+  - Built with **Next.js** (App Router) for server-side rendering and enhanced performance.
+  - **Framer Motion** for declarative and customizable animations.
+
+## 🛠️ Technologies Used
+
+- **Next.js**: Framework for server-rendered React applications.
+- **Framer Motion**: Library for animations and transitions.
+- **Tailwind CSS**: For styling the application.
+- **TypeScript**: Core language for building the project.
 
 First, run the development server:
 
@@ -28,9 +51,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
