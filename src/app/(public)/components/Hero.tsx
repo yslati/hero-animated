@@ -13,7 +13,7 @@ const Hero = () => {
                     <motion.span className="2xl:text-[5rem] xl:text-[4rem] lg:text-[2.5rem] text-[2rem] absolute 2xl:bottom-[15rem] xl:bottom-[11.5rem] lg:bottom-[9rem] bottom-[7.5rem] 2xl:right-32 xl:right-24 lg:right-20 right-16"
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.3, delay: 0.2 }}
+                        transition={{ duration: 0.5, delay: 0.2 }}
                         viewport={{ once: true }}
                     >
                         WE’VE GOT
@@ -21,7 +21,7 @@ const Hero = () => {
                     <motion.span className="2xl:text-[7.5rem] xl:text-[6rem] lg:text-[4.5rem] text-[3.2rem] absolute 2xl:bottom-[7rem] xl:bottom-[5.5rem] lg:bottom-[4.2rem] bottom-[3.5rem] 2xl:-right-[12rem] xl:-right-[10rem] lg:-right-[6rem] -right-[4.5rem]"
                         initial={{ opacity: 0, y: -30 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.3, delay: 0.5 }}
+                        transition={{ duration: 0.5, delay: 0.6 }}
                         viewport={{ once: true }}
                     >
                         CLOTHES
@@ -30,7 +30,7 @@ const Hero = () => {
                         <motion.span className="2xl:text-[2.9rem] xl:text-[2.3rem] lg:text-[1.8rem] text-[1.25rem] -rotate-90"
                             initial={{ opacity: 0, x: -50, rotate: 0 }}
                             whileInView={{ opacity: 1, x: 0, rotate: -90 }}
-                            transition={{ duration: 0.5, delay: 0.8 }}
+                            transition={{ duration: 0.5, delay: 1 }}
                             viewport={{ once: true }}
                         >
                             FOR
@@ -38,7 +38,7 @@ const Hero = () => {
                         <motion.span className="2xl:text-[7.9rem] xl:text-[6.2rem] lg:text-[4.8rem] text-[3.4rem] lg:pl-2 pl-3"
                             initial={{ opacity: 0, x: -20 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.5, delay: 1.2 }}
+                            transition={{ duration: 0.5, delay: 1.3 }}
                             viewport={{ once: true }}
                         >
                             EVERYONE
@@ -49,7 +49,7 @@ const Hero = () => {
                     <motion.p className="max-w-xs text-background font-inter_regular text-sm"
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
-                        transition={{ duration: 0.3, delay: 1.7 }}
+                        transition={{ duration: 0.5, delay: 2 }}
                         viewport={{ once: true }}
                     >
                         Our streetwear is designed to help you stand tall,
@@ -61,7 +61,7 @@ const Hero = () => {
                         <motion.button className="flex items-center gap-2 px-5 py-2 bg-background text-foreground rounded-full text-lg font-inter_bold"
                             initial={{ opacity: 0, x: -60 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.5, delay: 2 }}
+                            transition={{ duration: 0.5, delay: 2.2 }}
                             viewport={{ once: true }}
                         >
                             Shop Now
